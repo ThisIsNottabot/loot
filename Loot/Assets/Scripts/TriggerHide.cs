@@ -12,6 +12,7 @@ public class TriggerHide : MonoBehaviour {
 	public Collider prox;
 
 	void Start() {
+		Destroy(GetComponent<MeshRenderer>());
 		currentModel = Instantiate(model1, transform.position, transform.rotation) as GameObject;
 		currentModel.transform.parent = transform;
 		Debug.Log(currentModel);
