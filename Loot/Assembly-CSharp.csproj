@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CharController.cs" />
      <Compile Include="Assets\Scripts\ClickMove.cs" />
      <Compile Include="Assets\Scripts\MoveTo.cs" />
+     <Compile Include="Assets\Scripts\TriggerHide.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/nottabot/Unity-2017.3.0p2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
