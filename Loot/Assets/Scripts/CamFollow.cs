@@ -6,6 +6,6 @@ public class CamFollow : MonoBehaviour {
 	public GameObject target;
 
 	void LateUpdate () {
-		transform.position = target.transform.position + new Vector3(-10, 8.39f, -10);
+		transform.position = target.transform.position + new Vector3(-10, 7, -10);
 	}
 }
